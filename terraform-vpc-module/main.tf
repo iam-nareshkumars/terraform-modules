@@ -3,7 +3,7 @@ resource "aws_vpc" "myvpc" {
  
    tags = merge(local.commontag, 
        { 
-        Name = "${local.name}-vpc"
+        Name = "${local.name}-net"
         Create_date_time = local.time
       })
     

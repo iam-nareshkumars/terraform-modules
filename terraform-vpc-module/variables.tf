@@ -6,10 +6,13 @@ variable "common_tags" {
      type = map(string)
      default = {
         Createdby = "Terraform",
-        Costcenter = "FIN-005-HYD-CLOUD-AWS",
+        Costcenter = "FIN-006-HYD-AWS",
         Admin_email = "admin.roboshop@gmail.com"
     }
 }  
+variable "department_name" {
+  
+}
 variable "vpc" {
    type = map
    default = {}

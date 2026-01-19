@@ -1,5 +1,5 @@
 locals { 
-   name = "${var.project}-${var.environment}"
+   name = "${var.project}-${var.environment}-${var.department_name}"
    time  = formatdate("YYYY-MM-DD hh:mm:ss ZZZ", timestamp())
 }
 locals {
